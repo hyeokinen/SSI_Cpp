@@ -16,8 +16,7 @@ int main() {
 	// 1번째 삼각형
 	cout << "1번째 삼각형" << endl;
 	
-	// 1��° �ﰢ��
-	cout << "1��° �ﰢ��" << endl;
+	
 	for (int i = 1; i <= num; i++)
 	{
 		for (int j = 1; j <= i; j++) cout << "*";
@@ -30,8 +29,7 @@ int main() {
 
 	// 2번째 삼각형
 	cout << "2번째 삼각형" << endl;
-	// 2��° �ﰢ��
-	cout << "2��° �ﰢ��" << endl;
+	
 	for (int i = 0; i < num; i++)
 	{
 		for (int k = 0; k < i; k++) cout << " ";
@@ -90,10 +88,10 @@ int main() {
 	for (int i = 0; i < num; i++)
 	{
 		for (int j = i; j < num; j++) printf(" ");
-		for (int k = 0; k < i * 2 + 1; k++) printf("*"); // ���� Ȧ������ ����� �Ѵ�. �׷��Ƿ� 2n+1
+		for (int k = 0; k < i * 2 + 1; k++) printf("*");
 		printf("\n");
 	}
-	for (int i = 0; i < num-1; i++) // ���� �ﰢ���� �ݴ�� ������ ��� ������ num�� ���ں��� 1�� ���� ���ڷ� ���
+	for (int i = 0; i < num-1; i++) 
 	{
 		printf("  ");
 		for (int k = 0; k < i; k++) printf(" ");
